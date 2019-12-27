@@ -38,7 +38,7 @@ namespace MARC
                     }
                     break;
                 case "nodecardview":
-                    lbl_course_title.Text = selected_course_name;////////////////////////////////////////////////////////////////////////
+                    lbl_course_title.Text = selected_course_name;
                     lbl_announcements.Visible = true;
                     lbl_assignments.Visible = true;
                     lbl_lecture_notes.Visible = true;
@@ -172,6 +172,11 @@ namespace MARC
             lbl_pointer.Location = new Point(13, 412);
             NodeCardView.setNodeType(2);
             form_loader_student("nodecardview");
+        }
+
+        public static void setLblPoint(Point point)
+        {
+            lbl_pointer.Location = point;
         }
     }
 }

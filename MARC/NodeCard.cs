@@ -61,16 +61,19 @@ namespace MARC
             switch (_node_type)
             {
                 case "Lecture Note":
+                    PersonView.setLblPoint(new Point(13, 320));
                     LectureNoteView.setPersonId(selected_student_id);
                     LectureNoteView.setNodeId(_node_id);
                     PersonView.form_loader_student("lecturenoteview");
                     break;
                 case "Announcement":
+                    PersonView.setLblPoint(new Point(13, 412));
                     AnnouncementView.setPersonId(selected_student_id);
                     AnnouncementView.setNodeId(_node_id);
                     PersonView.form_loader_student("announcementview");
                     break;
                 case "Assignment":
+                    PersonView.setLblPoint(new Point(13, 365));
                     AssignmentView.setPersonId(selected_student_id);
                     AssignmentView.setNodeId(_node_id);
                     PersonView.form_loader_student("assignmentview");

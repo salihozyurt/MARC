@@ -32,7 +32,7 @@
             this.lbl_create = new System.Windows.Forms.Label();
             this.pnl_profil = new System.Windows.Forms.Panel();
             this.lbl_name_fisrt_letter = new System.Windows.Forms.Label();
-            this.lbl_pointer = new System.Windows.Forms.Label();
+            PersonView.lbl_pointer = new System.Windows.Forms.Label();
             this.btn_log_out = new System.Windows.Forms.Button();
             this.lbl_lec_std = new System.Windows.Forms.Label();
             this.lbl_name_surname = new System.Windows.Forms.Label();
@@ -53,7 +53,7 @@
             this.pnl_left.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(115)))), ((int)(((byte)(21)))));
             this.pnl_left.Controls.Add(this.lbl_create);
             this.pnl_left.Controls.Add(this.pnl_profil);
-            this.pnl_left.Controls.Add(this.lbl_pointer);
+            this.pnl_left.Controls.Add(PersonView.lbl_pointer);
             this.pnl_left.Controls.Add(this.btn_log_out);
             this.pnl_left.Controls.Add(this.lbl_lec_std);
             this.pnl_left.Controls.Add(this.lbl_name_surname);
@@ -103,14 +103,14 @@
             // 
             // lbl_pointer
             // 
-            this.lbl_pointer.AutoSize = true;
-            this.lbl_pointer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_pointer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.lbl_pointer.Location = new System.Drawing.Point(13, 278);
-            this.lbl_pointer.Name = "lbl_pointer";
-            this.lbl_pointer.Size = new System.Drawing.Size(20, 20);
-            this.lbl_pointer.TabIndex = 13;
-            this.lbl_pointer.Text = "●";
+            PersonView.lbl_pointer.AutoSize = true;
+            PersonView.lbl_pointer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            PersonView.lbl_pointer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            PersonView.lbl_pointer.Location = new System.Drawing.Point(13, 278);
+            PersonView.lbl_pointer.Name = "lbl_pointer";
+            PersonView.lbl_pointer.Size = new System.Drawing.Size(20, 20);
+            PersonView.lbl_pointer.TabIndex = 13;
+            PersonView.lbl_pointer.Text = "●";
             // 
             // btn_log_out
             // 
@@ -261,7 +261,7 @@
         private static System.Windows.Forms.Label lbl_assignments;
         private static System.Windows.Forms.Label lbl_lecture_notes;
         private System.Windows.Forms.Label lbl_course;
-        private System.Windows.Forms.Label lbl_pointer;
+        private static System.Windows.Forms.Label lbl_pointer;
         private System.Windows.Forms.Label lbl_create;
         private System.Windows.Forms.Panel pnl_profil;
         private System.Windows.Forms.Label lbl_lec_std;
