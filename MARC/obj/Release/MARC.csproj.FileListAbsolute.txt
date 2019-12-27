@@ -1,0 +1,17 @@
+C:\Users\Salih\Desktop\Database\MARC\MARC\bin\Release\MARC.exe.config
+C:\Users\Salih\Desktop\Database\MARC\MARC\bin\Release\MARC.exe
+C:\Users\Salih\Desktop\Database\MARC\MARC\bin\Release\MARC.pdb
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.csprojAssemblyReference.cache
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.CourseCard.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.CourseCardView.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.LecturerView.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.LogIn.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.MainForm.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.NodeCard.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.NodeCardView.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.Properties.Resources.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.SignUp.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.StudentView.resources
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.csproj.GenerateResource.cache
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.exe
+C:\Users\Salih\Desktop\Database\MARC\MARC\obj\Release\MARC.pdb
