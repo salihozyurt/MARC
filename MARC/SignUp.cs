@@ -24,7 +24,7 @@ namespace MARC
             cmb_box_department.SelectedIndex = 0;
             txt_box_name.Text = "";
             txt_box_surname.Text = "";
-            txt_box_surname.Text = "@marun.edu";
+            txt_box_email.Text = "@marun.edu";
             txt_box_pass.Text = "";
             txt_box_pass_repeat.Text = "";
             txt_box_pass_repeat.Enabled = false;
